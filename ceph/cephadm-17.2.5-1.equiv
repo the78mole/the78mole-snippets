@@ -1,0 +1,16 @@
+Package: cephadm
+Source: ceph
+Version: 17.2.5-1~bpo11+1
+Architecture: arm64
+Maintainer: The Mole <me@the78mole>
+Recommends: podman (>= 2.0.2) | docker.io
+Homepage: http://ceph.com/
+Priority: optional
+Section: admin
+Description: cephadm utility to bootstrap ceph daemons with systemd and containers
+ Ceph is a massively scalable, open-source, distributed
+ storage system that runs on commodity hardware and delivers object,
+ block and file system storage.
+ .
+ The cephadm utility is used to bootstrap a Ceph cluster and to manage
+ ceph daemons deployed with systemd and containers.
